@@ -56,7 +56,7 @@ A data analysis and forecasting project focused on exploring financial inclusion
 
 Addis Ababa Science and Technology University (AASTU)
 
-2024 – Present | Second Year
+2023 – Present | Third Year
 
 ## Training and Certifications
 
