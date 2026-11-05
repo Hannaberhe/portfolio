@@ -6,17 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hana Berhe Hagos | Portfolio</title>
+    <meta name="description"
+        content="Hana Berhe Hagos - Software Engineering student interested in AI, Data Analytics and Cybersecurity.">
 
-    <meta name="description" content="Portfolio of Hana Berhe Hagos, a Software Engineering student interested in AI, Data Analytics and Cybersecurity.">
-    <meta name="keywords" content="Software Engineering, Artificial Intelligence, Data Analytics, Cybersecurity">
+    <meta name="keywords"
+        content="Hana Berhe Hagos, Software Engineering, AASTU, AI, Data Analytics, Cybersecurity">
+
     <meta name="author" content="Hana Berhe Hagos">
+
+    <title>Hana Berhe Hagos | Portfolio</title>
 </head>
 
-<body>
+<body id="top">
+
+    <!-- ================= HEADER ================= -->
 
     <header>
+
         <h1>Hana Berhe Hagos</h1>
+
+        <!-- Circular HB logo made with Canvas -->
+        <canvas id="logoCanvas" width="130" height="130">
+            Your browser does not support canvas.
+        </canvas>
 
         <figure>
             <img src="images/profile.jpg"
@@ -26,16 +38,45 @@
             <figcaption>Hana Berhe Hagos</figcaption>
         </figure>
 
-        <p>Software Engineering Student | AI | Data Analytics | Cybersecurity</p>
+        <p>
+            Software Engineering Student |
+            Artificial Intelligence |
+            Data Analytics |
+            Cybersecurity
+        </p>
 
         <p>
-            I am interested in technology, learning new skills
-            and building solutions to real-world problems.
+            I am a Software Engineering student who enjoys learning
+            technology and building practical solutions to real-world
+            problems.
         </p>
+
+        <p>
+            <a href="#contact">Contact Me</a>
+            |
+            <a href="projects.html">View All Projects</a>
+            |
+            <a href="https://drive.google.com/file/d/1W-aiggjKLsJHlMc3fR9YEciUcrX4Xw_W/view?usp=sharing"
+               target="_blank" rel="noopener">
+                View My CV
+            </a>
+        </p>
+
+        <button type="button"
+            onclick="document.getElementById('hireDialog').showModal()">
+            Hire Me / Let's Connect
+        </button>
+
     </header>
 
+
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
+        <h2>Explore My Portfolio</h2>
+
         <a href="#about">About</a> |
+        <a href="#inspiration">Inspiration</a> |
         <a href="#skills">Skills</a> |
         <a href="#projects">Projects</a> |
         <a href="#education">Education</a> |
@@ -44,111 +85,178 @@
         <a href="projects.html">All Projects</a>
     </nav>
 
+
     <main>
 
+        <!-- ================= ABOUT ================= -->
+
         <section id="about">
+
             <h2>About Me</h2>
 
             <p>
-                I am a second-year Software Engineering student
-                at Addis Ababa Science and Technology University
-                (AASTU).
+                Hello! I am Hana Berhe Hagos, a third-year Software
+                Engineering student at Addis Ababa Science and
+                Technology University (AASTU).
             </p>
 
             <p>
                 I am interested in Artificial Intelligence,
                 Data Analytics and Cybersecurity. I enjoy learning
-                new technologies, solving problems and building
+                new technologies, solving problems and working on
                 practical projects.
             </p>
 
             <p>
-                My goal is to become a software developer who
-                builds useful, secure and intelligent systems.
+                My goal is to become a software engineer who builds
+                useful, secure and intelligent systems that can
+                solve real-world problems.
             </p>
 
-            <h3>What Inspires Me</h3>
-
-            <blockquote>
-                "It does not matter how slowly you go as long
-                as you do not stop."
-            </blockquote>
-
-            <p>Confucius</p>
+            <p>
+                I am currently improving my programming skills and
+                exploring how technology can create positive change.
+            </p>
 
             <aside>
-                <h3>My Interests</h3>
+                <h3>A Little About Me</h3>
                 <p>
-                    Artificial Intelligence, Machine Learning,
-                    Data Analytics and Cybersecurity.
+                    I believe that learning happens through practice.
+                    Every new challenge is an opportunity to improve.
                 </p>
             </aside>
+
         </section>
 
+
+        <!-- ================= INSPIRATION ================= -->
+
+        <section id="inspiration">
+
+            <h2>What Inspires Me</h2>
+
+            <blockquote>
+                "The best way to predict the future is to invent it."
+            </blockquote>
+
+            <p>— Alan Kay</p>
+
+            <p>
+                I believe that technology is not only about writing
+                code. It is also about understanding problems and
+                creating solutions that help people.
+            </p>
+
+            <h3>A Talk I Recommend</h3>
+
+            <p>
+                Here is a video I recommend watching:
+            </p>
+
+            <iframe
+                width="400"
+                height="250"
+                src="https://www.youtube.com/embed/HhBNGdS5Kqk"
+                title="My recommended YouTube video"
+                allowfullscreen>
+            </iframe>
+
+            <p>
+                <a href="https://youtu.be/HhBNGdS5Kqk?si=RUebE2bK9JgWR_sz"
+                   target="_blank" rel="noopener">
+                    Watch this video on YouTube
+                </a>
+            </p>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
         <section id="skills">
+
             <h2>My Skills</h2>
 
-            <h3>Programming</h3>
+            <h3>Programming Languages</h3>
+
             <ul>
                 <li>Python</li>
                 <li>C++</li>
-                <li>Java (Learning)</li>
-                <li>HTML</li>
+                <li>C</li>
+                <li>Java (currently learning)</li>
+                <li>HTML (currently learning)</li>
             </ul>
 
-            <h3>Data and AI</h3>
+            <h3>Data and Artificial Intelligence</h3>
+
             <ul>
                 <li>Data Analysis</li>
-                <li>SQL</li>
-                <li>Power BI</li>
                 <li>Data Visualization</li>
                 <li>Machine Learning Fundamentals</li>
+                <li>Working with Data</li>
             </ul>
 
             <h3>Cybersecurity</h3>
+
             <ul>
                 <li>Cybersecurity Fundamentals</li>
-                <li>Security Awareness</li>
+                <li>Netwwork Analysis</li>
+                <li>penetration</li>
                 <li>Capture The Flag (CTF) Challenges</li>
             </ul>
 
             <h3>Tools I Use</h3>
 
             <dl>
-                <dt>Visual Studio Code</dt>
+                <dt><strong>Visual Studio Code</strong></dt>
                 <dd>A code editor I use to write and edit programs.</dd>
 
-                <dt>Git and GitHub</dt>
-                <dd>Tools for managing and sharing my code.</dd>
+                <dt><strong>Git and GitHub</strong></dt>
+                <dd>Tools I use to manage and share my code.</dd>
 
-                <dt>Power BI</dt>
-                <dd>A tool for data analysis and visualization.</dd>
+                <dt><strong>Python Tools</strong></dt>
+                <dd>Tools used for data analysis and programming.</dd>
             </dl>
 
             <h3>My Learning Roadmap</h3>
 
             <ol>
-                <li>Improve my programming skills.</li>
-                <li>Learn advanced cybersecurity.</li>
-                <li>Study Machine Learning and AI.</li>
-                <li>Build practical software projects.</li>
-                <li>Develop secure web applications.</li>
+                <li>Improve my programming and problem-solving skills.</li>
+                <li>Develop stronger Java and web development skills.</li>
+                <li>Continue learning Artificial Intelligence and Machine Learning.</li>
+                <li>Improve my cybersecurity knowledge.</li>
+                <li>Build more practical software projects.</li>
             </ol>
 
-            <h3>Learning Progress</h3>
+            <h3>My Learning Progress</h3>
 
-            <p>Software Engineering degree progress:</p>
-            <progress value="2" max="5">2 out of 5</progress>
+            <p>My current university study progress: Second year of my degree.</p>
 
-            <p>Cybersecurity learning progress:</p>
-            <meter min="0" max="100" value="50">50%</meter>
+            <progress value="2" max="5">2 out of 5 years</progress>
+
+            <p>
+                My current HTML learning stage:
+                <meter min="0" max="5" value="1">Beginner</meter>
+                <small>This is a personal learning-stage indicator.</small>
+            </p>
+
         </section>
 
+
+        <!-- ================= PROJECTS ================= -->
+
         <section id="projects">
+
             <h2>My Projects</h2>
 
+            <p>
+                These projects are part of my learning and practical
+                experience in Artificial Intelligence and Data Analytics.
+            </p>
+
             <article>
-                <h3>Credit Risk Prediction Model - Bati Bank</h3>
+
+                <h3>1. Credit Risk Prediction Model - Bati Bank</h3>
 
                 <p>
                     A machine learning project that uses financial
@@ -156,13 +264,15 @@
                 </p>
 
                 <p>
-                    Skills: Python, data preparation,
-                    analysis and machine learning.
+                    Skills: Python, data preparation, data analysis
+                    and machine learning.
                 </p>
+
             </article>
 
             <article>
-                <h3>E-commerce Fraud Detection System</h3>
+
+                <h3>2. E-commerce Fraud Detection System</h3>
 
                 <p>
                     A machine learning project that explores
@@ -173,31 +283,39 @@
                 <p>
                     Skills: Data analysis and machine learning.
                 </p>
+
             </article>
 
             <article>
-                <h3>Financial Inclusion Forecasting - Ethiopia</h3>
+
+                <h3>3. Financial Inclusion Forecasting - Ethiopia</h3>
 
                 <p>
-                    A data analysis and forecasting project
-                    exploring financial inclusion patterns
-                    in Ethiopia.
+                    A data analysis and forecasting project exploring
+                    financial inclusion patterns in Ethiopia.
                 </p>
 
                 <p>
-                    Skills: Data analysis and visualization.
+                    Skills: Data analysis and data visualization.
                 </p>
+
             </article>
 
             <p>
-                <a href="projects.html">See all my projects</a>
+                <a href="projects.html">See all my projects →</a>
             </p>
+
         </section>
 
+
+        <!-- ================= EDUCATION ================= -->
+
         <section id="education">
+
             <h2>Education</h2>
 
             <article>
+
                 <h3>BSc in Software Engineering</h3>
 
                 <p>
@@ -205,12 +323,14 @@
                     (AASTU)
                 </p>
 
-                <p>Second Year | 2024 - Present</p>
+                <p>Third Year | 2024 - Present</p>
+
             </article>
 
             <h3>Academic Record</h3>
 
             <table border="1" cellpadding="8" cellspacing="0">
+
                 <caption>Software Engineering Academic Record</caption>
 
                 <thead>
@@ -225,17 +345,17 @@
 
                 <tbody>
                     <tr>
-                        <th rowspan="3">Year 2</th>
+                        <th rowspan="3">Year 3</th>
                         <td rowspan="3">Current Semester</td>
                         <td>Internet Programming</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td>3</td>
+                        <td>Not yet available</td>
                     </tr>
 
                     <tr>
                         <td>Object Oriented Programming</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td>3</td>
+                        <td>Not yet available</td>
                     </tr>
 
                     <tr>
@@ -244,64 +364,83 @@
                         <td>-</td>
                     </tr>
                 </tbody>
+
             </table>
 
             <p>
-                Degree progress:
-                <progress value="2" max="5">2 out of 5 years</progress>
+                Degree duration:
+                <progress value="3" max="5">3 out of 5 years</progress>
             </p>
+
+            <p>
+                Note: Replace the academic record with your actual
+                courses, credit hours and grades when you have them.
+            </p>
+
         </section>
 
+
+        <!-- ================= ACHIEVEMENTS ================= -->
+
         <section id="achievements">
+
             <h2>Training and Achievements</h2>
 
             <article>
+
                 <h3>INSA Cyber Talent Ethiopia</h3>
 
                 <p>
-                    Selected for the INSA Cyber Talent Summer Camp.
-                    Participated in one month of cybersecurity
-                    training and project work.
+                    Selected for the INSA Cyber Talent Ethiopia
+                    Summer Camp. Participated in one month of
+                    cybersecurity training and project work.
                 </p>
+
             </article>
 
             <article>
+
                 <h3>Second Place - Individual CTF Challenge</h3>
 
                 <p>
-                    Achieved second place in an individual
-                    Capture The Flag (CTF) challenge during
-                    the 7th National Cybersecurity Month 2026
-                    at AASTU.
+                    Achieved second place in an individual Capture
+                    The Flag (CTF) challenge during the 7th National
+                    Cybersecurity Month 2026 at AASTU.
                 </p>
 
                 <figure>
                     <img src="images/ctf-second-place.jpg"
-                         alt="CTF second-place certificate"
+                         alt="Hana's CTF second-place certificate"
                          width="350">
+
                     <figcaption>
                         Second Place - Individual CTF Challenge, 2026
                     </figcaption>
                 </figure>
+
             </article>
 
             <article>
+
                 <h3>Kifiya AI Mastery Programme (KAIM)</h3>
 
                 <p>
                     Participated in the Kifiya AI Mastery Programme
-                    and worked on practical projects in Artificial
-                    Intelligence, Machine Learning and Data Analysis.
+                    and worked on practical projects related to
+                    Artificial Intelligence, Machine Learning
+                    and Data Analysis.
                 </p>
 
                 <figure>
-                    <img src="images/kaim-ai-certificate.jpg"
+                    <img src="images/kaim-ai-certificate.jpeg"
                          alt="Kifiya AI Mastery Programme certificate"
                          width="350">
+
                     <figcaption>
                         Kifiya AI Mastery Programme Certificate
                     </figcaption>
                 </figure>
+
             </article>
 
             <h3>Other Training</h3>
@@ -312,12 +451,19 @@
                 <li>Udacity 5 Million Coders Programme</li>
                 <li>Mobile Phone Maintenance Training</li>
             </ul>
+
         </section>
 
+
+        <!-- ================= MULTIMEDIA ================= -->
+
         <section id="multimedia">
+
             <h2>Multimedia</h2>
 
             <h3>My Audio Introduction</h3>
+
+            <p>Listen to my short introduction:</p>
 
             <audio controls>
                 <source src="media/intro.mp3" type="audio/mpeg">
@@ -326,10 +472,15 @@
 
             <h3>Project Demonstration</h3>
 
-            <video controls width="400"
-                   poster="images/project-demo-poster.jpg">
+            <p>
+                This video demonstrates the HTML video feature
+                using the media file provided for the lab.
+            </p>
+
+            <video controls width="450">
 
                 <source src="media/project-demo.mp4" type="video/mp4">
+
                 <source src="media/project-demo.webm" type="video/webm">
 
                 <track src="media/project-demo.vtt"
@@ -339,22 +490,28 @@
                        default>
 
                 Your browser does not support video.
+
             </video>
 
-            <h3>Learning Resource</h3>
-
-            <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID"
-                title="Learning resource video"
-                width="400"
-                height="250">
-            </iframe>
         </section>
 
+
+        <!-- ================= CONTACT ================= -->
+
         <section id="contact">
+
             <h2>Contact Me</h2>
 
-            <p>Location: Addis Ababa, Ethiopia</p>
+            <p>
+                I welcome opportunities to learn, collaborate
+                and connect with people in technology.
+            </p>
+
+            <h3>My Contact Information</h3>
+
+            <p>
+                Address: Addis Ababa, Ethiopia
+            </p>
 
             <p>
                 Email:
@@ -364,69 +521,184 @@
             </p>
 
             <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/hanaberhe">
-                    My LinkedIn Profile
+                GitHub:
+                <a href="https://github.com/hanaberhe"
+                   target="_blank" rel="noopener">
+                    github.com/hanaberhe
                 </a>
             </p>
 
             <p>
-                GitHub:
-                <a href="https://github.com/hanaberhe">
-                    My GitHub Profile
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/hanaberhe"
+                   target="_blank" rel="noopener">
+                    linkedin.com/in/hanaberhe
                 </a>
             </p>
 
+            <p>
+                <a href="https://drive.google.com/file/d/1W-aiggjKLsJHlMc3fR9YEciUcrX4Xw_W/view?usp=sharing"
+                   target="_blank" rel="noopener">
+                    View or Download My CV (PDF)
+                </a>
+            </p>
+
+
+            <!-- Shape icons made with SVG -->
+
+            <h3>Connect With Me</h3>
+
+            <p>
+                <a href="https://www.linkedin.com/in/hanaberhe"
+                   target="_blank" rel="noopener">
+
+                    <svg width="55" height="55" viewBox="0 0 60 60"
+                         role="img" aria-label="LinkedIn">
+
+                        <circle cx="30" cy="30" r="27"
+                                fill="#0A66C2"/>
+
+                        <text x="30" y="39"
+                              font-size="25"
+                              text-anchor="middle"
+                              fill="white"
+                              font-weight="bold">in</text>
+                    </svg>
+
+                    LinkedIn
+                </a>
+            </p>
+
+            <p>
+                <a href="https://github.com/hanaberhe"
+                   target="_blank" rel="noopener">
+
+                    <svg width="55" height="55" viewBox="0 0 60 60"
+                         role="img" aria-label="GitHub">
+
+                        <rect x="5" y="5" width="50" height="50"
+                              rx="10" fill="#24292F"/>
+
+                        <text x="30" y="38"
+                              font-size="18"
+                              text-anchor="middle"
+                              fill="white"
+                              font-weight="bold">GH</text>
+                    </svg>
+
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                <a href="mailto:hanaberhe777@gmail.com">
+
+                    <svg width="55" height="55" viewBox="0 0 60 60"
+                         role="img" aria-label="Email">
+
+                        <polygon points="30,4 57,54 3,54"
+                                 fill="#D9534F"/>
+
+                        <text x="30" y="43"
+                              font-size="15"
+                              text-anchor="middle"
+                              fill="white"
+                              font-weight="bold">@</text>
+                    </svg>
+
+                    Email
+                </a>
+            </p>
+
+
+            <!-- Map location -->
+
+            <h3>My Location</h3>
+
+            <p>
+                <a href="https://maps.app.goo.gl/mkBDEaciCfEdNPHH6?g_st=ac"
+                   target="_blank" rel="noopener">
+                    Open my location in Google Maps
+                </a>
+            </p>
+
+            <iframe
+                width="400"
+                height="250"
+                src="https://www.google.com/maps?q=Addis+Ababa,+Ethiopia&output=embed"
+                title="Map of Addis Ababa, Ethiopia">
+            </iframe>
+
+
+            <!-- Contact form -->
+
             <h3>Send Me a Message</h3>
 
-            <form action="thank-you.html" method="post"
+            <form action="thank-you.html"
+                  method="post"
                   enctype="multipart/form-data">
 
                 <fieldset>
-                    <legend>Personal Information</legend>
+
+                    <legend>Your Details</legend>
 
                     <label for="name">Full Name:</label>
                     <input type="text" id="name" name="name" required>
+
                     <br><br>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
+
                     <br><br>
 
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone"
+                    <label for="phone">Phone (optional):</label>
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
                            pattern="0[79][0-9]{8}"
                            placeholder="09XXXXXXXX or 07XXXXXXXX">
-                    <br><br>
+
                 </fieldset>
 
+
                 <fieldset>
+
                     <legend>Message Details</legend>
 
-                    <label for="subject">Subject:</label>
+                    <label for="subject">Reason for contacting me:</label>
 
                     <select id="subject" name="subject">
+
                         <optgroup label="Academic">
                             <option value="education">Education</option>
-                            <option value="projects">Projects</option>
+                            <option value="project">Project discussion</option>
                         </optgroup>
 
                         <optgroup label="Professional">
+                            <option value="internship">Internship opportunity</option>
                             <option value="collaboration">Collaboration</option>
                             <option value="other">Other</option>
                         </optgroup>
+
                     </select>
 
                     <br><br>
 
                     <p>Preferred contact method:</p>
 
-                    <input type="radio" id="email-contact"
-                           name="contact-method" value="email">
+                    <input type="radio"
+                           id="email-contact"
+                           name="contact-method"
+                           value="email">
+
                     <label for="email-contact">Email</label>
 
-                    <input type="radio" id="phone-contact"
-                           name="contact-method" value="phone">
+                    <input type="radio"
+                           id="phone-contact"
+                           name="contact-method"
+                           value="phone">
+
                     <label for="phone-contact">Phone</label>
 
                     <br><br>
@@ -434,41 +706,67 @@
                     <label for="message">Your Message:</label>
                     <br>
 
-                    <textarea id="message" name="message"
-                              rows="5" cols="35" required></textarea>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="35"
+                              required></textarea>
+
                 </fieldset>
 
+
                 <fieldset>
+
                     <legend>Additional Information</legend>
 
-                    <label for="date">Preferred Date:</label>
-                    <input type="date" id="date" name="date"
+                    <label for="date">Preferred Meeting Date:</label>
+                    <input type="date"
+                           id="date"
+                           name="date"
                            min="2026-11-01">
+
                     <br><br>
 
-                    <label for="number">Number of Participants:</label>
-                    <input type="number" id="number" name="number"
-                           min="1" max="52">
+                    <label for="number">Project Length (weeks):</label>
+                    <input type="number"
+                           id="number"
+                           name="number"
+                           min="1"
+                           max="52">
+
                     <br><br>
 
-                    <label for="file">Attach a File:</label>
+                    <label for="file">Attach a Project Brief:</label>
                     <input type="file" id="file" name="file">
+
                     <br><br>
 
-                    <label for="color">Choose a Color:</label>
+                    <label for="color">Preferred Website Colour:</label>
                     <input type="color" id="color" name="color">
+
                     <br><br>
 
-                    <label for="rating">Interest Level:</label>
-                    <input type="range" id="rating" name="rating"
-                           min="1" max="10">
-                    <br><br>
-
-                    <input type="checkbox" id="agree" name="agree"
-                           value="yes" required>
-                    <label for="agree">
-                        I agree to submit this message.
+                    <label for="rating">
+                        How much do you like my portfolio? (1-10)
                     </label>
+
+                    <input type="range"
+                           id="rating"
+                           name="rating"
+                           min="1"
+                           max="10">
+
+                    <br><br>
+
+                    <input type="checkbox"
+                           id="copy"
+                           name="copy"
+                           value="yes">
+
+                    <label for="copy">
+                        I would like to keep a copy of my message.
+                    </label>
+
                 </fieldset>
 
                 <br>
@@ -477,10 +775,38 @@
                 <button type="reset">Clear Form</button>
 
             </form>
+
         </section>
 
-        <section id="date-information">
-            <h2>About This Page</h2>
+
+        <!-- ================= HTML INFORMATION ================= -->
+
+        <section id="html-information">
+
+            <h2>More About My Learning</h2>
+
+            <details>
+
+                <summary>What are my career interests?</summary>
+
+                <p>
+                    I am interested in Software Engineering,
+                    Artificial Intelligence, Data Analytics
+                    and Cybersecurity.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>What am I learning now?</summary>
+
+                <p>
+                    I am continuing to develop my Java,
+                    Internet Programming and AI skills.
+                </p>
+
+            </details>
 
             <p>
                 Last updated:
@@ -497,43 +823,35 @@
                 HTML uses &lt;tags&gt; to structure web pages.
                 I enjoy learning &amp; creating with technology.
             </p>
+
         </section>
 
-        <section id="interactive">
-            <h2>More About Me</h2>
 
-            <details>
-                <summary>What are my career interests?</summary>
+        <!-- ================= CANVAS SKILLS CHART ================= -->
 
-                <p>
-                    I am interested in software development,
-                    Artificial Intelligence and Cybersecurity.
-                </p>
-            </details>
-        </section>
+        <section id="skills-chart">
 
-        <section id="canvas-section">
-            <h2>My Personal Logo</h2>
+            <h2>My Learning Areas</h2>
 
-            <canvas id="logoCanvas" width="250" height="120">
+            <canvas id="skillsCanvas" width="400" height="200">
                 Your browser does not support canvas.
             </canvas>
 
-            <h2>My Skills Chart</h2>
-
-            <canvas id="skillsCanvas" width="350" height="180">
-                Your browser does not support canvas.
-            </canvas>
         </section>
 
     </main>
 
+
+    <!-- ================= DIALOG ================= -->
+
     <dialog id="hireDialog">
+
         <h2>Let's Connect!</h2>
 
         <p>
             Thank you for visiting my portfolio.
-            You can contact me through my email.
+            I am open to learning opportunities,
+            collaboration and professional connections.
         </p>
 
         <p>
@@ -546,35 +864,78 @@
                 onclick="document.getElementById('hireDialog').close()">
             Close
         </button>
+
     </dialog>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
-        <p>&copy; 2026 Hana Berhe Hagos. All rights reserved.</p>
+
+        <p>
+            &copy; 2026 Hana Berhe Hagos.
+            All rights reserved.
+        </p>
+
         <p>Software Engineering Student | AASTU</p>
+
+        <p>
+            <a href="#top">Back to top</a>
+        </p>
+
     </footer>
 
+
+    <!-- ================= JAVASCRIPT CANVAS ================= -->
+
     <script>
+
+        // Draw the circular HB logo
+
         const logo = document.getElementById("logoCanvas");
         const logoContext = logo.getContext("2d");
 
-        logoContext.fillRect(10, 10, 100, 100);
+        // Circle background
+        logoContext.beginPath();
+        logoContext.arc(65, 65, 55, 0, 2 * Math.PI);
+        logoContext.fillStyle = "#17365D";
+        logoContext.fill();
+
+        // Circle border
+        logoContext.lineWidth = 4;
+        logoContext.strokeStyle = "#D6A84B";
+        logoContext.stroke();
+
+        // HB letters
         logoContext.fillStyle = "white";
-        logoContext.font = "bold 30px Arial";
-        logoContext.fillText("HBH", 25, 70);
+        logoContext.font = "bold 38px Arial";
+        logoContext.textAlign = "center";
+        logoContext.textBaseline = "middle";
+        logoContext.fillText("HB", 65, 65);
+
+
+        // Draw the learning areas chart
 
         const chart = document.getElementById("skillsCanvas");
         const chartContext = chart.getContext("2d");
 
-        chartContext.fillStyle = "blue";
-        chartContext.fillRect(20, 30, 120, 25);
-        chartContext.fillRect(20, 75, 180, 25);
-        chartContext.fillRect(20, 120, 90, 25);
-
-        chartContext.fillStyle = "black";
         chartContext.font = "14px Arial";
-        chartContext.fillText("Python", 210, 48);
-        chartContext.fillText("Cybersecurity", 210, 93);
-        chartContext.fillText("Data Analysis", 210, 138);
+        chartContext.fillStyle = "black";
+
+        chartContext.fillText("Programming", 10, 35);
+        chartContext.fillText("Data Analysis", 10, 90);
+        chartContext.fillText("Cybersecurity", 10, 145);
+
+        // These bars are visual examples, not measured skill scores.
+        chartContext.fillStyle = "#4169E1";
+        chartContext.fillRect(130, 20, 150, 20);
+
+        chartContext.fillStyle = "#228B22";
+        chartContext.fillRect(130, 75, 150, 20);
+
+        chartContext.fillStyle = "#B8860B";
+        chartContext.fillRect(130, 130, 150, 20);
+
     </script>
 
 </body>
