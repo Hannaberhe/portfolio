@@ -14,12 +14,13 @@
 
     <meta name="author" content="Hana Berhe Hagos">
 
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-    rel="stylesheet"
->
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hana Berhe Hagos | Portfolio</title>
 </head>
@@ -27,32 +28,28 @@
 <body id="top">
 
     <!-- ================= HEADER ================= -->
-  <canvas id="logoCanvas" width="130" height="130">
-            Your browser does not support canvas.
-        </canvas>       
+
     <header>
 
-     <h1 style="color: rgb(83, 128, 0); text-align: center;">
-    Hana Berhe Hagos
-</h1>
-    Hana Berhe Hagos
-</h1>
         <!-- Circular HB logo made with Canvas -->
-        
+        <canvas id="logoCanvas" width="130" height="130">
+            Your browser does not support canvas.
+        </canvas>
+
+        <h1>Hana Berhe Hagos</h1>
 
         <figure>
             <img src="images/profile.jpg"
                  alt="Profile picture of Hana Berhe Hagos"
                  width="200"
                  height="200">
+
             <figcaption>Hana Berhe Hagos</figcaption>
         </figure>
 
-        <p>
-            Software Engineering Student |
-            Artificial Intelligence |
-            Data Analytics |
-            Cybersecurity
+       
+        <p class="tagline">
+            Software Engineering student and aspiring Cybersecurity professional.
         </p>
 
         <p>
@@ -73,7 +70,8 @@
         </p>
 
         <button type="button"
-            onclick="document.getElementById('hireDialog').showModal()">
+                class="btn"
+                onclick="document.getElementById('hireDialog').showModal()">
             Hire Me / Let's Connect
         </button>
 
@@ -130,6 +128,7 @@
 
             <aside>
                 <h3>A Little About Me</h3>
+
                 <p>
                     I believe that learning happens through practice.
                     Every new challenge is an opportunity to improve.
@@ -210,8 +209,8 @@
 
             <ul>
                 <li>Cybersecurity Fundamentals</li>
-                <li>Netwwork Analysis</li>
-                <li>penetration</li>
+                <li>Network Analysis</li>
+                <li>Penetration Testing Fundamentals</li>
                 <li>Capture The Flag (CTF) Challenges</li>
             </ul>
 
@@ -226,6 +225,8 @@
 
                 <dt><strong>Python Tools</strong></dt>
                 <dd>Tools used for data analysis and programming.</dd>
+                <dt><strong>Kali Linux</strong></dt>
+                <dd>Tools I use for cybersecurity and penetration testing.</dd>
             </dl>
 
             <h3>My Learning Roadmap</h3>
@@ -240,9 +241,9 @@
 
             <h3>My Learning Progress</h3>
 
-            <p>My current university study progress: Second year of my degree.</p>
+            <p>My current university study progress: Third year of my degree.</p>
 
-            <progress value="2" max="5">2 out of 5 years</progress>
+            <progress value="3" max="5">3 out of 5 years</progress>
 
             <p>
                 My current HTML learning stage:
@@ -264,7 +265,7 @@
                 experience in Artificial Intelligence and Data Analytics.
             </p>
 
-            <article>
+            <article class="card">
 
                 <h3>1. Credit Risk Prediction Model - Bati Bank</h3>
 
@@ -280,7 +281,7 @@
 
             </article>
 
-            <article>
+            <article class="card">
 
                 <h3>2. E-commerce Fraud Detection System</h3>
 
@@ -296,7 +297,7 @@
 
             </article>
 
-            <article>
+            <article class="card">
 
                 <h3>3. Financial Inclusion Forecasting - Ethiopia</h3>
 
@@ -324,7 +325,7 @@
 
             <h2>Education</h2>
 
-            <article>
+            <article class="card">
 
                 <h3>BSc in Software Engineering</h3>
 
@@ -333,13 +334,13 @@
                     (AASTU)
                 </p>
 
-                <p>Third Year | 2024 - Present</p>
+                <p>Third Year | 2023 - Present</p>
 
             </article>
 
             <h3>Academic Record</h3>
 
-            <table border="1" cellpadding="8" cellspacing="0">
+            <table>
 
                 <caption>Software Engineering Academic Record</caption>
 
@@ -396,7 +397,7 @@
 
             <h2>Training and Achievements</h2>
 
-            <article>
+            <article class="card">
 
                 <h3>INSA Cyber Talent Ethiopia</h3>
 
@@ -408,7 +409,7 @@
 
             </article>
 
-            <article>
+            <article class="card">
 
                 <h3>Second Place - Individual CTF Challenge</h3>
 
@@ -430,7 +431,7 @@
 
             </article>
 
-            <article>
+            <article class="card">
 
                 <h3>Kifiya AI Mastery Programme (KAIM)</h3>
 
@@ -510,8 +511,7 @@
 
         <section id="contact">
 
-         
-         <h2>Contact Me</h2>
+            <h2>Contact Me</h2>
 
             <p>
                 I welcome opportunities to learn, collaborate
@@ -556,71 +556,65 @@
 
 
             <!-- Shape icons made with SVG -->
+<h3>Connect With Me</h3>
 
-            <h3>Connect With Me</h3>
+<div class="social-links">
 
-            <p>
-                <a href="https://www.linkedin.com/in/hanaberhe"
-                   target="_blank" rel="noopener">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/hanaberhe"
+       target="_blank"
+       rel="noopener"
+       class="social-link"
+       aria-label="LinkedIn">
 
-                    <svg width="55" height="55" viewBox="0 0 60 60"
-                         role="img" aria-label="LinkedIn">
+        <svg width="75" height="75" viewBox="0 0 60 60">
+            <circle cx="30" cy="30" r="28" fill="#0A66C2"/>
+            <path fill="white"
+                  d="M18 25h7v22h-7V25zm3.5-11a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM29 25h7v3c1-2 3-4 7-4 7 0 9 4 9 11v12h-7V36c0-3-1-5-4-5s-5 2-5 6v10h-7V25z"/>
+        </svg>
 
-                        <circle cx="30" cy="30" r="27"
-                                fill="#0A66C2"/>
+        <span>LinkedIn</span>
+    </a>
 
-                        <text x="30" y="39"
-                              font-size="25"
-                              text-anchor="middle"
-                              fill="white"
-                              font-weight="bold">in</text>
-                    </svg>
 
-                    LinkedIn
-                </a>
-            </p>
+    <!-- GitHub -->
+    <a href="https://github.com/hanaberhe"
+       target="_blank"
+       rel="noopener"
+       class="social-link"
+       aria-label="GitHub">
 
-            <p>
-                <a href="https://github.com/hanaberhe"
-                   target="_blank" rel="noopener">
+        <svg width="75" height="75" viewBox="0 0 60 60">
+            <circle cx="30" cy="30" r="28" fill="#24292F"/>
+            <path fill="white"
+                  d="M30 12a18 18 0 0 0-5.7 35.1c.9.2 1.2-.4 1.2-.9v-3.4c-5 .9-6.1-2.1-6.1-2.1-.7-1.8-1.7-2.3-1.7-2.3-1.4-1 .1-1 .1-1 1.5.1 2.3 1.5 2.3 1.5 1.3 2.3 3.5 1.6 4.4 1.2.1-1 .5-1.6.9-2-4-.5-8.2-2-8.2-8.9 0-2 .7-3.6 1.9-4.9-.2-.5-.8-2.4.2-5 0 0 1.5-.5 5 1.9a17 17 0 0 1 9.1 0c3.5-2.4 5-1.9 5-1.9 1 2.6.4 4.5.2 5 1.2 1.3 1.9 2.9 1.9 4.9 0 6.9-4.2 8.4-8.2 8.9.6.5 1.1 1.4 1.1 2.8v4.3c0 .5.3 1.1 1.2.9A18 18 0 0 0 30 12z"/>
+        </svg>
 
-                    <svg width="55" height="55" viewBox="0 0 60 60"
-                         role="img" aria-label="GitHub">
+        <span>GitHub</span>
+    </a>
 
-                        <rect x="5" y="5" width="50" height="50"
-                              rx="10" fill="#24292F"/>
 
-                        <text x="30" y="38"
-                              font-size="18"
-                              text-anchor="middle"
-                              fill="white"
-                              font-weight="bold">GH</text>
-                    </svg>
+    <!-- Email -->
+    <a href="mailto:hanaberhe777@gmail.com"
+       class="social-link"
+       aria-label="Email">
 
-                    GitHub
-                </a>
-            </p>
+        <svg width="75" height="75" viewBox="0 0 60 60">
+            <circle cx="30" cy="30" r="28" fill="#D9534F"/>
+            <rect x="13" y="19" width="34" height="23"
+                  rx="3" fill="white"/>
+            <path d="M14 21l16 12 16-12"
+                  fill="none"
+                  stroke="#D9534F"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </svg>
 
-            <p>
-                <a href="mailto:hanaberhe777@gmail.com">
+        <span>Email</span>
+    </a>
 
-                    <svg width="55" height="55" viewBox="0 0 60 60"
-                         role="img" aria-label="Email">
-
-                        <polygon points="30,4 57,54 3,54"
-                                 fill="#D9534F"/>
-
-                        <text x="30" y="43"
-                              font-size="15"
-                              text-anchor="middle"
-                              fill="white"
-                              font-weight="bold">@</text>
-                    </svg>
-
-                    Email
-                </a>
-            </p>
-
+</div>
 
             <!-- Map location -->
 
@@ -782,8 +776,13 @@
 
                 <br>
 
-                <button type="submit">Send Message</button>
-                <button type="reset">Clear Form</button>
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <button type="reset" class="btn btn-secondary">
+                    Clear Form
+                </button>
 
             </form>
 
@@ -821,7 +820,7 @@
 
             <p>
                 Last updated:
-                <time datetime="2026-11-05">November 5, 2026</time>
+                <time datetime="2026-11-16">November 16, 2026</time>
             </p>
 
             <p>
@@ -872,6 +871,7 @@
         </p>
 
         <button type="button"
+                class="btn btn-secondary"
                 onclick="document.getElementById('hireDialog').close()">
             Close
         </button>
